@@ -2,112 +2,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nware - Consultoría Shopify & Web</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #ffffff;
-      color: #1c1c1e;
-    }
-    header {
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    header img {
-      width: 160px;
-      margin-bottom: 1rem;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      font-weight: 600;
-    }
-    header p {
-      color: #555;
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
-    }
-    section {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-    section p {
-      font-size: 1.1rem;
-      color: #555;
-      line-height: 1.6;
-    }
-    .cta {
-      margin-top: 2rem;
-    }
-    .cta a {
-      text-decoration: none;
-      background-color: #5E8E3E;
-      color: white;
-      padding: 0.8rem 2rem;
-      border-radius: 6px;
-      font-weight: 600;
-      transition: background 0.3s;
-    }
-    .cta a:hover {
-      background-color: #4b752f;
-    }
-    footer {
-      background-color: #f8f8f8;
-      text-align: center;
-      padding: 1.5rem;
-      font-size: 0.9rem;
-      color: #777;
-      margin-top: 3rem;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>nware - Soluciones eCommerce</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Logo nware">
-    <h1>nware</h1>
-    <p>Soluciones eCommerce a tu medida en Shopify y más</p>
-  </header>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Soluciones eCommerce a tu medida</h1>
+            <p>Integraciones personalizadas en medios de pago, boleta electrónica, ERP y más.</p>
+        </div>
+    </header>
 
-  <section>
-    <h2>¿Qué hacemos?</h2>
-    <p>Desarrollamos tiendas Shopify personalizadas, integramos medios de pago, boleta electrónica, ERP, y te asesoramos en cada paso de tu negocio digital. Nuestro foco es que tu operación sea simple, eficiente y escalable.</p>
-
-    <div class="cta">
-      <a href="mailto:contacto@nware.cl">Contáctanos</a>
-    </div>
-  
-    <div style="display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 1rem; margin-top: 3rem; padding-bottom: 1rem;">
-      <div style="flex: 0 0 auto; min-width: 250px; background: #f2f2f2; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.08); text-align: center;">
-        <img src="boleta.png" alt="Boleta electrónica" style="width: 64px; height: 64px; margin-bottom: 1rem;" />
-        <h3 style="margin: 0; font-size: 1.1rem;">Integración Boleta Electrónica</h3>
-      </div>
-      <div style="flex: 0 0 auto; min-width: 250px; background: #f2f2f2; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.08); text-align: center;">
-        <img src="pagos.png" alt="Medios de pago" style="width: 64px; height: 64px; margin-bottom: 1rem;" />
-        <h3 style="margin: 0; font-size: 1.1rem;">Integración Medios de Pago</h3>
-      </div>
-      <div style="flex: 0 0 auto; min-width: 250px; background: #f2f2f2; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 6px rgba(0,0,0,0.08); text-align: center;">
-        <img src="asesoria.png" alt="Asesoría ecommerce" style="width: 64px; height: 64px; margin-bottom: 1rem;" />
-        <h3 style="margin: 0; font-size: 1.1rem;">Asesoría eCommerce</h3>
-      </div>
-    </div>
+    <section class="services">
+        <h2>¿Qué hacemos?</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Boleta Electrónica</h3>
+                <p>Conectamos tu tienda con sistemas de emisión automática de boletas y facturas.</p>
+            </div>
+            <div class="card">
+                <h3>Medios de Pago</h3>
+                <p>Integramos Webpay, MercadoPago y otros gateways de pago sin complicaciones.</p>
+            </div>
+            <div class="card">
+                <h3>Automatización</h3>
+                <p>Desde reportes hasta despachos, optimizamos tu operación ecommerce.</p>
+            </div>
+        </div>
     </section>
-    
 
-  <footer>
-    &copy; 2025 nware. Desarrollado con 💚 desde Chile.
-  </footer>
+    <footer>
+        <p>© 2025 nware. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
